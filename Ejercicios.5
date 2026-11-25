@@ -1,0 +1,25 @@
+Funcion leerDatos(base Por Referencia, altura Por Referencia)
+    Escribir "Ingrese la base del rectangulo: "
+    Leer base
+    Escribir "Ingrese la altura del rectangulo: "
+    Leer altura
+FinFuncion
+
+Funcion area <- calcularArea(base, altura)
+    Definir area Como Real
+    area <- base * altura
+FinFuncion
+
+Funcion mostrarResultado(area)
+    Escribir "El area del rectangulo es: ", area
+FinFuncion
+
+Algoritmo Principal
+    Definir base, altura, resultado Como Real
+	
+    leerDatos(base, altura)
+	
+    resultado <- calcularArea(base, altura)
+	
+    mostrarResultado(resultado)
+FinAlgoritmo
