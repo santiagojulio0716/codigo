@@ -1,0 +1,28 @@
+Funcion leerDatos(precio Por Referencia, descuento Por Referencia)
+    Escribir "Ingrese el precio de la compra: "
+    Leer precio
+    Escribir "Ingrese el porcentaje de descuento: "
+    Leer descuento
+FinFuncion
+
+Funcion valorDescuento <- calcularDescuento(precio, descuento)
+    Definir valorDescuento Como Real
+    valorDescuento <- precio * descuento / 100
+FinFuncion
+
+Funcion mostrarResultado(precio, descuento, final)
+    Escribir "Precio original: $", precio
+    Escribir "Descuento aplicado: $", descuento
+    Escribir "Precio final: $", final
+FinFuncion
+
+Algoritmo Principal
+    Definir precio, porcentaje, descuento, final Como Real
+	
+    leerDatos(precio, porcentaje)
+	
+    descuento <- calcularDescuento(precio, porcentaje)
+    final <- precio - descuento
+	
+    mostrarResultado(precio, descuento, final)
+FinAlgoritmo
