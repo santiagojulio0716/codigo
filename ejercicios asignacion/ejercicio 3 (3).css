@@ -1,0 +1,7 @@
+Algoritmo ejercicio_3
+	Definir precio Como Real;
+	escribir "digita el precio";
+	Escribir "precio";
+	Leer precio;
+	Escribir "el precio del articulo es: " + ConvertirATexto(precio);
+FinAlgoritmo

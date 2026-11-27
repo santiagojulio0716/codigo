@@ -1,0 +1,17 @@
+Algoritmo calcular_total_IVA
+	Definir subtotal, iva Como Real;
+	Definir precio  Como Real;
+	Definir cantidad Como Entero;
+	Escribir "ingrese el precio de compra"
+	Leer precio
+	
+	Escribir "ingrese la cantidad"
+	leer cantidad
+	subtotal<-precio * cantidad
+	iva<-0.15
+	total<-subtotal + iva
+	Escribir "subtotal:", + ConvertirATexto(subtotal);
+	Escribir "iva (15):", + ConvertirATexto(iva);
+	Escribir "total a pagar:", + ConvertirATexto(total);
+	
+FinAlgoritmo

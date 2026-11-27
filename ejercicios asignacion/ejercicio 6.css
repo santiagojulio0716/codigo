@@ -1,0 +1,35 @@
+Algoritmo suma_numeros
+	
+	// 1. declarar variables
+	Definir num1 Como Entero;
+	Definir num2 Como Entero;
+	Definir num3 Como Entero;
+	Definir num4 Como Entero;
+	Definir num5 Como Entero;
+	Definir result Como Entero;
+	
+	// 2. tomar datos desde consola 
+	Escribir "digite el num1:";
+	Leer num1;
+	
+	Escribir "digite el num1:";
+	Leer num2;
+	
+	Escribir "digite el num1:";
+	Leer num3;
+	
+	Escribir "digite el num1:";
+	Leer num4;
+	
+	Escribir "digite el num1:";
+	Leer num5;
+	
+	// 3. p datos
+	result = num1 + num2 + num3 + num4 + num5 
+	
+	// 4. mostrar resultados
+	Escribir "el resultado es: " + ConvertirATexto(result);
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,17 @@
+Algoritmo precio_notas
+	Definir nota1, nota2, nota3 Como real;
+	Escribir "ingrsar la nota 1";
+	leer nota1;
+	Escribir "ingrsar la nota 2";
+	leer nota2;
+	Escribir "ingrsar la nota 3";
+	leer nota3;
+	promedio<-(nota1 + nota2 + nota3)/3
+	Si promedio>3.5 Entonces
+		Escribir "aprobaste"
+	SiNo
+		Escribir "no aprobaste"
+	Fin Si
+	Escribir "el promedio es :" + ConvertirATexto(promedio);
+	
+FinAlgoritmo

@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Definir estudiante Como Logico;
+	
+	estudiante<-Verdadero
+	
+	Escribir " es usted estudiante? [verdadero/falso]";
+	leer esEstudiante;
+	Si esEstudiante Entonces;
+		Escribir "eres estudiante";
+	SiNo
+		Escribir "no eres estudiante";
+	Fin Si
+FinAlgoritmo
